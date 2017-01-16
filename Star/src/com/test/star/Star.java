@@ -9,18 +9,16 @@ public class Star {
 		System.out.println("숫자를 입력해보세요^.^");
 		System.out.println("──────────────────────");
 
-		int n=0;
-
+		int input_num=0;
 		int i,j,k=0;
 
 
 		
 		while(true){
-			Scanner scanner = new Scanner(System.in);
-			String inputString;
-			n=scanner.nextInt();
-			System.out.println("입력된 숫자 : " +n );
-		if(n==1)
+			Scanner m = new Scanner(System.in);
+			input_num=m.nextInt();
+			System.out.println("입력된 숫자 : " +input_num );
+		if(input_num==1)
 		{
 		    //1을 입력했을 때
 
@@ -34,7 +32,7 @@ public class Star {
 			System.out.println();
 			}System.out.println("다시 해보겠습니까?");
 		}
-		if(n==2){
+		else if(input_num==2){
 			//2를 입력했을때 
 			for(i=0;i<5;i++){
 				for(j=3;j>=i;j--){
@@ -46,7 +44,7 @@ public class Star {
 			System.out.println();
 			}System.out.println("다시 해보겠습니까?");
 		}
-		if(n==3){
+		else if(input_num==3){
 			//3을 입력했을 때
 			for(i=0;i<5;i++){
 				for(j=0;j<i;j++){
@@ -58,7 +56,7 @@ public class Star {
 			System.out.println();
 			}System.out.println("다시 해보겠습니까?");
 		}
-		if(n==4){
+		else if(input_num==4){
 			//4를 입력했을 때
 			for(i=0;i<5;i++){
 				for(j=3;j>=i;j--){
