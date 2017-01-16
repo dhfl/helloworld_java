@@ -7,3 +7,5 @@ public class VariableExam {
 		System.out.println(result);
 	}
 }
+
+
