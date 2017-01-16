@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Star {
 	public static void main(String args[]){
 		
-		System.out.println("¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡");
-		System.out.println("¼ıÀÚ¸¦ ÀÔ·ÂÇØº¸¼¼¿ä^.^");
-		System.out.println("¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+		System.out.println("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 
 		int input_num=0;
 		int i,j,k=0;
@@ -17,10 +17,10 @@ public class Star {
 		while(true){
 			Scanner m = new Scanner(System.in);
 			input_num=m.nextInt();
-			System.out.println("ÀÔ·ÂµÈ ¼ıÀÚ : " +input_num );
+			System.out.println("ì…ë ¥í•œ ìˆ«ì : " +input_num );
 		if(input_num==1)
 		{
-		    //1À» ÀÔ·ÂÇßÀ» ¶§
+		    //1ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 
 			for(i=0;i<5;i++){
 				for(j=0;j<=i;j++){
@@ -30,10 +30,10 @@ public class Star {
 				System.out.print(" ");
 				}
 			System.out.println();
-			}System.out.println("´Ù½Ã ÇØº¸°Ú½À´Ï±î?");
+			}System.out.println("ë‹¤ì‹œ ì…ë ¥í•˜ì‹œê² ìŠµë‹ˆê¹Œ?");
 		}
 		else if(input_num==2){
-			//2¸¦ ÀÔ·ÂÇßÀ»¶§ 
+			//2ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 
 			for(i=0;i<5;i++){
 				for(j=3;j>=i;j--){
 				System.out.print(" ");
@@ -42,10 +42,10 @@ public class Star {
 					System.out.print("*");
 				}
 			System.out.println();
-			}System.out.println("´Ù½Ã ÇØº¸°Ú½À´Ï±î?");
+			}System.out.println("ë‹¤ì‹œ ì…ë ¥í•˜ì‹œê² ìŠµë‹ˆê¹Œ?");
 		}
 		else if(input_num==3){
-			//3À» ÀÔ·ÂÇßÀ» ¶§
+			//3ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 			for(i=0;i<5;i++){
 				for(j=0;j<i;j++){
 				System.out.print(" ");
@@ -54,10 +54,10 @@ public class Star {
 					System.out.print("*");
 				}
 			System.out.println();
-			}System.out.println("´Ù½Ã ÇØº¸°Ú½À´Ï±î?");
+			}System.out.println("ë‹¤ì‹œ ì…ë ¥í•˜ì‹œê² ìŠµë‹ˆê¹Œ?");
 		}
 		else if(input_num==4){
-			//4¸¦ ÀÔ·ÂÇßÀ» ¶§
+			//4ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 			for(i=0;i<5;i++){
 				for(j=3;j>=i;j--){
 				System.out.print("*");
@@ -66,10 +66,10 @@ public class Star {
 					System.out.print(" ");
 				}
 			System.out.println();
-			}System.out.println("´Ù½Ã ÇØº¸°Ú½À´Ï±î?");
+			}System.out.println("ë‹¤ì‹œ ì…ë ¥í•˜ì‹œê² ìŠµë‹ˆê¹Œ?");
 		  }
 		else{
-			System.out.println("1,2,3,4 Áß ÇÏ³ª¸¸ ÀÔ·ÂÇÏ¼¼¿ä");
+			System.out.println("1,2,3,4ë§Œ ì…ë ¥í•˜ì„¸ìš”");
 		}
 		}
 
@@ -81,7 +81,7 @@ public static void main2(String args[]){
 	char char1, char2;
 	Scanner scanner = new Scanner(System.in);
 	do{
-	   System.out.println("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+	   System.out.println("ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½");
 	   String select=scanner.nextLine();
 	   if(select.equals("1")){
 		   start1=1; start2=4; inc1=1; inc2=-1;
